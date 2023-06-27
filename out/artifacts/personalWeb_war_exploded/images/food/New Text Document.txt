@@ -1,0 +1,5 @@
+USE 个人网站
+INSERT INTO home_food (name, description, price, image, city) 
+VALUES
+('红膏炝蟹', '色彩艳红、鲜咸滑嫩', 25.00, 'D:\JAVA\idea files\Exp_JSP\web\PersonalWeb\images\food\hgqx.jpg', '宁波'),
+('雪菜黄鱼', '鱼肉嫩，菜香浓，清口鲜洁，营养丰富', 25.00, 'D:\JAVA\idea files\Exp_JSP\web\PersonalWeb\images\food\xchy.jpg', '宁波');

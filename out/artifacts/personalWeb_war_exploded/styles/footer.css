@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+    /* 通用选择器 全局声明 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 设置字体 */
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+footer {
+    z-index: 888;
+    position: relative;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.logo p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.contact-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}

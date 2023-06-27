@@ -1,0 +1,86 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    background-color: #a9def9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 75vh;
+    background-color: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .leftSide {
+    position: relative;
+    background-color: #669bbc;
+    padding: 40px;
+}
+
+.cultureList {
+    padding-top: 40px;
+}
+
+.cultureList .title {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.cultureList ul {
+    position: relative;
+}
+
+.cultureList ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.cultureList ul li .text {
+    color: #fff;
+}
+
+
+.container .rightSide {
+    position: relative;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.rightSide #cultureName{
+    color: #1E90FF;
+    margin-bottom: 20px;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.rightSide #cultureImg{
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

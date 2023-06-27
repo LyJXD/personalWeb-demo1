@@ -1,0 +1,7 @@
+USE 个人网站
+INSERT INTO home_culture (name, description, image, city,inheritor) VALUES
+('甬剧', '浙江宁波地方传统戏剧，国家级非物质文化遗产之一。甬剧是用浙江宁波方言演唱的地方戏曲剧种，音乐声腔属于滩簧。
+甬剧表演风格夸张、幽默，善于表达真实、含蓄的情感。甬剧经历了演清装戏、西装旗袍戏的过程，擅长演现代戏，直接从社会生活中汲取创作素材，以生活化的表演为主。', 
+'D:\JAVA\idea files\Exp_JSP\web\PersonalWeb\images\culture\yj.jpg', '宁波','杨柳汀'),
+('宁波走书', '宁波走书曲调丰富多彩，伴奏独具特色。内容贴近生活，词句通俗易懂，且演唱简单，有说有唱，说唱并重，辅以形体动作，表演富有生活气息。用宁波方言演唱，具有浓厚的地方特色。',
+'D:\JAVA\idea files\Exp_JSP\web\PersonalWeb\images\culture\nbzs.jpg', '宁波','沈健丽');
